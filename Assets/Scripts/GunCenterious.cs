@@ -21,7 +21,7 @@ public class GunCenterious : MonoBehaviour
         shootingAudioSource.clip = shootingSound;
 
         // Delay the initial shooting by 30 seconds
-        Invoke("StartShooting", 30f);
+        Invoke("StartShooting", 0f);
     }
 
     private void StartShooting()

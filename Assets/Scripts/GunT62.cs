@@ -13,8 +13,6 @@ public class GunT62 : MonoBehaviour
     public float bulletSpeed = 3f;
     public float delayBetweenShots = 5f;
     public float shootingDuration = 50f;
-    public float particleDisplayDelay = 50f;
-
     private bool particlesDisplayed = false;
     private float currentShootingTime = 0f;
 
@@ -30,15 +28,12 @@ public class GunT62 : MonoBehaviour
         particles.SetActive(false);
 
         // Delay the initial shooting visibility by 30 seconds, then call the function StartShooting
-        Invoke("StartShooting", 30f);
+        Invoke("StartShooting", 0f);
 
         // Display the particle prefab after 50 seconds from shooting
-        Invoke("DisplayParticles", 80f);
+        Invoke("DisplayParticles", 50f);
 
     }
-
-
-
 
 
     private void StartShooting()

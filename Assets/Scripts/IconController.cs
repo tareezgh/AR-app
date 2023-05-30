@@ -5,16 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class IconController : MonoBehaviour
 {
-    // Start is called before the first frame update
     public void Play()
     {
-        Debug.Log("Play method called");
+        Debug.Log("Main scene");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void Back()
     {
-        Debug.Log("Back method called");
+        Debug.Log("Secondary scene");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
