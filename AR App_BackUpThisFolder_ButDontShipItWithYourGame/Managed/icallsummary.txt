@@ -181,6 +181,8 @@ UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
 UnityEngine.Application::get_targetFrameRate
 UnityEngine.Application::get_dataPath
+UnityEngine.Application::get_unityVersion
+UnityEngine.Application::Quit
 UnityEngine.Application::set_targetFrameRate
 UnityEngine.Application::get_platform
 UnityEngine.AsyncOperation::InternalDestroy
@@ -289,6 +291,7 @@ UnityEngine.CubemapArray::Internal_CreateImpl
 UnityEngine.CubemapArray::get_isReadable
 UnityEngine.Cursor::SetCursor_Injected
 UnityEngine.Cursor::get_lockState
+UnityEngine.Debug::get_isDebugBuild
 UnityEngine.Debug::ExtractStackTraceNoAlloc
 UnityEngine.DebugLogHandler::Internal_Log
 UnityEngine.DebugLogHandler::Internal_LogException
@@ -354,6 +357,7 @@ UnityEngine.GameObject::GetComponent
 UnityEngine.GameObject::GetComponentInChildren
 UnityEngine.GameObject::GetComponentInParent
 UnityEngine.GameObject::Internal_AddComponentWithType
+UnityEngine.GameObject::Find
 UnityEngine.GameObject::get_transform
 UnityEngine.Gizmos::DrawCube_Injected
 UnityEngine.Gizmos::set_color_Injected
@@ -624,6 +628,8 @@ UnityEngine.PlayerConnectionInternal::PollInternal
 UnityEngine.PlayerConnectionInternal::RegisterInternal
 UnityEngine.PlayerConnectionInternal::SendMessage
 UnityEngine.PlayerConnectionInternal::UnregisterInternal
+UnityEngine.Profiling.Profiler::BeginSampleImpl
+UnityEngine.Profiling.Profiler::EndSample
 UnityEngine.PropertyNameUtils::PropertyNameFromString_Injected
 UnityEngine.QualitySettings::get_vSyncCount
 UnityEngine.QualitySettings::set_vSyncCount
@@ -905,6 +911,11 @@ UnityEngine.XR.InputDevices::GetDeviceName
 UnityEngine.XR.InputDevices::GetDevices_Internal
 UnityEngine.XR.InputDevices::GetDeviceCharacteristics
 UnityEngine.XR.InputTracking::GetNodeStates_Internal
+UnityEngine.XR.Provider.XRStats::TryGetStat_Internal
+UnityEngine.XR.XRDisplaySubsystem::TryGetAppGPUTimeLastFrame
+UnityEngine.XR.XRDisplaySubsystem::TryGetCompositorGPUTimeLastFrame
+UnityEngine.XR.XRDisplaySubsystem::TryGetDisplayRefreshRate
+UnityEngine.XR.XRDisplaySubsystem::TryGetMotionToPhoton
 UnityEngine.XR.XRMeshSubsystem::GetMeshInfosAsList
 UnityEngine.XR.XRMeshSubsystem::SetBoundingVolume_Injected
 UnityEngine.XR.XRMeshSubsystem::GetUpdatedMeshTransforms

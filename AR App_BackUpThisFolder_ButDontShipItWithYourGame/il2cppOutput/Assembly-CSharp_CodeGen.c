@@ -44,9 +44,7 @@ extern void MainSceneController_Start_m5F7913C55085D9922F88919FE35C98F476428E27 
 extern void MainSceneController_Update_m259D268919BCDAA4854CB2AB0A37C3C7C0E712B8 (void);
 // 0x00000010 System.Void MainSceneController::.ctor()
 extern void MainSceneController__ctor_m02904664843EB3FD31629E811F56612572108BAE (void);
-// 0x00000011 System.Void PlayerController::.ctor()
-extern void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (void);
-static Il2CppMethodPointer s_methodPointers[17] = 
+static Il2CppMethodPointer s_methodPointers[16] = 
 {
 	GunCenterious_Start_m68E62E0EABBEB7C34D86990B90A33C4672F2E1A0,
 	GunCenterious_StartShooting_m61BD9EB28F6BF1EC8B5653ED1D1ACC5BB8934C77,
@@ -64,33 +62,31 @@ static Il2CppMethodPointer s_methodPointers[17] =
 	MainSceneController_Start_m5F7913C55085D9922F88919FE35C98F476428E27,
 	MainSceneController_Update_m259D268919BCDAA4854CB2AB0A37C3C7C0E712B8,
 	MainSceneController__ctor_m02904664843EB3FD31629E811F56612572108BAE,
-	PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33,
 };
-static const int32_t s_InvokerIndices[17] = 
+static const int32_t s_InvokerIndices[16] = 
 {
-	4411,
-	4411,
-	4411,
-	4411,
-	4411,
-	4411,
-	4411,
-	4411,
-	4411,
-	4411,
-	4411,
-	4411,
-	4411,
-	4411,
-	4411,
-	4411,
-	4411,
+	4461,
+	4461,
+	4461,
+	4461,
+	4461,
+	4461,
+	4461,
+	4461,
+	4461,
+	4461,
+	4461,
+	4461,
+	4461,
+	4461,
+	4461,
+	4461,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	17,
+	16,
 	s_methodPointers,
 	0,
 	NULL,
