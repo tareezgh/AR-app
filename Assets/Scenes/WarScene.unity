@@ -314,7 +314,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingSound
@@ -322,7 +322,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -867,7 +867,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingSound
@@ -875,7 +875,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -1349,11 +1349,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
+      propertyPath: shootingSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -1445,7 +1449,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.15, y: -3.68}
+  m_AnchoredPosition: {x: 6.16, y: -3.55}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &801645740
@@ -1758,11 +1762,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
+      propertyPath: shootingSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -1778,43 +1786,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174672, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: -0.9952361
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174672, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.36
+      value: -0.36255404
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174672, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.7621517
+      value: 0.7725544
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174672, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.9945268
+      value: -0.9947004
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174672, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.078319535
+      value: 0.09843308
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174672, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.06598331
+      value: -0.016183997
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174672, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.020704059
+      value: 0.024903338
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174672, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -8.804
+      value: -11.246
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174672, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 367.822
+      value: 362.168
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174672, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -2.988
+      value: -3.082
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3952232066920324136, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
@@ -1953,7 +1961,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingSound
@@ -1961,7 +1969,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -2283,11 +2291,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
+      propertyPath: shootingSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -2537,11 +2549,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
+      propertyPath: shootingSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -2732,11 +2748,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
+      propertyPath: shootingSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -3004,7 +3024,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingSound
@@ -3012,7 +3032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -3208,7 +3228,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingSound
@@ -3216,7 +3236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -3292,7 +3312,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingSound
@@ -3300,7 +3320,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 8c13826878c8b4e77b48ed9e74c7fe9e, type: 3}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -3583,7 +3603,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingSound
@@ -3591,7 +3611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -3842,11 +3862,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
+      propertyPath: shootingSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -4719,7 +4743,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingSound
@@ -4727,7 +4751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -5121,11 +5145,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
+      propertyPath: shootingSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots
@@ -5730,7 +5758,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d8b696002b89147fd8a19d42e0a5e359, type: 2}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: bulletSpeed
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingSound
@@ -5738,7 +5766,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: shootingDuration
-      value: 60
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6075053911254174634, guid: e77fb6e9311984e4ebf7867b4c9b69ab, type: 3}
       propertyPath: delayBetweenShots

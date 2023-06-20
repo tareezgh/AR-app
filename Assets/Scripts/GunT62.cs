@@ -14,8 +14,8 @@ public class GunT62 : MonoBehaviour
         GameObject particles = Instantiate(particlePrefab, tank.transform.position, Quaternion.identity);
         particles.SetActive(false);
 
-        // Display the particle prefab after 50 seconds 
-        Invoke("DisplayParticles", 50f);
+        // Display the particle prefab after 30 seconds 
+        Invoke("DisplayParticles", 30f);
 
     }
 
@@ -30,7 +30,7 @@ public class GunT62 : MonoBehaviour
             particles.transform.eulerAngles = new Vector3(-90f, 0f, 0f);
             particlesDisplayed = true;
             // Set the tank inactive after 20 seconds
-            Invoke("DestroyTank", 20f);
+            Invoke("DestroyTank", 10f);
         }
     }
 

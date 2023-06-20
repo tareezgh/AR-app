@@ -9,7 +9,7 @@ public class GunCenterious : MonoBehaviour
     public AudioSource shootingAudioSource;
     public AudioClip shootingSound;
     public float bulletSpeed = 10f;
-    public float shootingDuration = 60f;
+    public float shootingDuration = 30f;
     public float delayBetweenShots = 3f; 
 
     private float currentShootingTime = 0f;
@@ -20,7 +20,6 @@ public class GunCenterious : MonoBehaviour
         shootingAudioSource = gameObject.AddComponent<AudioSource>();
         shootingAudioSource.clip = shootingSound;
 
-        // Delay the initial shooting by 30 seconds
         Invoke("StartShooting", 0f);
     }
 

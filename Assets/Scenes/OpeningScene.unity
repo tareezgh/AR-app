@@ -808,12 +808,20 @@ PrefabInstance:
       value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 1757586669630601601, guid: d0c36f39d09924f30ae4b5f75ffe8855, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1757586669630601601, guid: d0c36f39d09924f30ae4b5f75ffe8855, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1757586669630601601, guid: d0c36f39d09924f30ae4b5f75ffe8855, type: 3}
       propertyPath: m_Color.a
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1757586669630601601, guid: d0c36f39d09924f30ae4b5f75ffe8855, type: 3}
+      propertyPath: m_Material
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2019943718145296397, guid: d0c36f39d09924f30ae4b5f75ffe8855, type: 3}
       propertyPath: m_Name
